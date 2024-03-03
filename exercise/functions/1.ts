@@ -9,3 +9,8 @@
 
 import { strict as assert } from "assert";
 
+function returnName(name) {
+  return `${name}`;
+}
+
+console.log(returnName('xAVIER'));

@@ -1,5 +1,21 @@
 /* eslint-disable */
 
+for (let i = 1; i < 5; i++) {
+  console.log(`${i}`);
+}
+
+for (let i = 1; i <= 1000; i++) {
+  console.log(`${i}`);
+  if (i === 5) {
+    console.log("Out");
+    break;
+  }
+  if (i === 3) {
+    continue;
+  }
+  console.log("hi");
+}
+
 // The `for` loop consists of three expressions separated by semicolons,
 // followed by curly braces where the loop body is placed.
 //

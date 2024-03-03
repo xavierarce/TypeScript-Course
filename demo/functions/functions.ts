@@ -1,5 +1,6 @@
 /* eslint-disable */
 import { strict as assert } from "assert";
+import { log } from "console";
 
 // Functions are an essential component of programming that help organize code
 // and make it more modular. A function is a block of code that can be called
@@ -12,3 +13,25 @@ import { strict as assert } from "assert";
 //
 // Useful links:
 // https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+const sayHello = () => {
+  console.log("hello");
+};
+
+sayHello();
+
+function sum(lhs, rhs) {
+  return lhs + rhs;
+}
+
+const answer = sum(2, 3);
+console.log(answer);
+
+const answer2 = sum(answer, 4);
+console.log(answer2);
+
+const lhs = sum(1, 1);
+const rhs = sum(2, 2);
+
+const answer4 = sum(lhs, rhs);
+console.log(answer4);
